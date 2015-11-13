@@ -21,3 +21,17 @@ if (firstNumber > secondNumber) {
 
 }
 
+
+
+function concatenate(strings) {
+
+var str1 = prompt("Enter an expression");
+var str2 = prompt("Enter another expression");
+
+var strings = [str1, str2];
+var finalString = strings.join(" ");
+
+console.log(finalString);
+
+}
+
